@@ -1,0 +1,12 @@
+<!--index.wxml-->
+  <view style="height: 100vh">
+    <chat
+        bind:queryCallback="getQueryCallback"
+        bind:openWebview="openWebview"
+        bind:openMiniProgram="openMiniProgram"
+        generic:guideCard="customGuideCard"
+    />
+ </view>
+ <!-- <guideCard guideList="{{guideList}}" controlSwiper="{{controlSwiper}}" bind:chooseGuide="choosePageGuide"> </guideCard> -->
+
+

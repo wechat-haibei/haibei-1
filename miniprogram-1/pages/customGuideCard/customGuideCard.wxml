@@ -1,0 +1,3 @@
+<!--pages/customGuideCard/customGuideCard.wxml-->
+
+<guideCard guideList="{{guideList}}"> </guideCard>
